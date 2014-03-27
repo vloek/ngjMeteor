@@ -9,7 +9,7 @@ Template.blog.events
       user: Meteor.user()
       owner: Meteor.userId()
       created_at: new Date()
-      
+
     $('#myModal').foundation('reveal', 'close');
     document.forms["blogPost"].reset();
 
@@ -17,3 +17,6 @@ Template.blog.events
 Template.post_one.events
   'click #delete': ->
     Posts.remove(this._id)
+
+Templates.post_one.itsOwner = ()->
+  return this.owner == Meteor.userId() # ИЗМЕНИТЬ!!

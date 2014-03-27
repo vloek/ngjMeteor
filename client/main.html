@@ -84,7 +84,7 @@
 
 <template name="post_one">
   <li id="{{_id}}" style="padding: 10px"  class='panel'>
-    {{#if owner = Meteor.userId}}
+    {{#if itsOwner }}
       <div class="right">
         <button id="delete" class='button alert tiny'>delete</button>
       </div>
