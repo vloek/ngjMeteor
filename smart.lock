@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "foundation": {},
+      "template-animation-helper": {}
+    },
+    "packages": {
+      "foundation": {
+        "git": "https://github.com/ewall/meteor-foundation.git",
+        "tag": "v4.3.2",
+        "commit": "4cd0dc6ac5c69bf7477917a836d9078262d273a0"
+      },
+      "template-animation-helper": {
+        "git": "https://github.com/frozeman/meteor-template-animation-helper.git",
+        "tag": "v1.0.2",
+        "commit": "9b2d90bf302e6e87edade572f9655e5bb924cb42"
+      }
+    }
+  }
+}
